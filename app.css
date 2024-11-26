@@ -1,0 +1,33 @@
+/* app.css */
+
+/* Style for bookmark cards */
+.card {
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    margin: 5px 0;
+}
+
+/* Ensure CheckboxGroup is only visible within its container */
+.gradio-container .checkboxgroup {
+    display: block;
+}
+
+/* Hide CheckboxGroup globally */
+.checkboxgroup {
+    display: none;
+}
+
+/* Specific styling within Manage Bookmarks tab */
+.tab-content .checkboxgroup {
+    display: block;
+}
